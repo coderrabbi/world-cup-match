@@ -271,3 +271,22 @@ footer h1 {
     flex-direction: column;
   }
 }
+.social__section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.social__section h3 {
+  color: #fff;
+  font-weight: 500;
+}
+.social__link {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  font-size: 25px;
+}
+.social__link a {
+  text-decoration: none;
+  color: #fff;
+}
